@@ -3,7 +3,7 @@
     <title>Juli&#x27;s docs</title>
     <link href="https://juliasmatius.github.io/docs/feed.xml" rel="self" />
     <link href="https://juliasmatius.github.io/docs" />
-    <updated>2024-02-14T10:30:18+02:00</updated>
+    <updated>2024-02-17T11:03:57+02:00</updated>
     <author>
         <name>Juli The Furry</name>
     </author>
@@ -17,7 +17,7 @@
         <link href="https://juliasmatius.github.io/docs/lastfm-status-page/index.html"/>
         <id>https://juliasmatius.github.io/docs/lastfm-status-page/index.html</id>
 
-        <updated>2024-02-14T10:30:18+02:00</updated>
+        <updated>2024-02-17T11:03:57+02:00</updated>
             <summary>
                 <![CDATA[
                     This is a status page which shows what song a specific user is currently listening to. It displays the song name, artist, album and album art. In the page title it shows the artist and song name. Available in both dark and light mode and&hellip;
@@ -42,7 +42,7 @@
 LASTFM_USER=Example_user
 
 ; Api key from https://www.last.fm/login?next=/api/account/create (doesnt need to be the same user as tracked)
-API_KEY = 11ea120a0ec0f68561ae3dbbc87f81a3
+API_KEY = 123456ABCDEF
 
 ; Don't worry about this one. I don't even remember if it does anything
 MAIN_PAGE_PATH = /
