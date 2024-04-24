@@ -12,7 +12,7 @@
       }
       .main {
         position:absolute;
-        top:10%;
+        top:15%;
         left:50%;
         transform: translate(-50%,-50%);
         text-align:center;
@@ -49,6 +49,17 @@
       }
       .footer_images img {
         margin: 0 5px
+      }
+      .logo {
+        width:auto;
+        height: 50px;
+      }
+      .logo img {
+        position: absolute;
+        transform: translate(-50%,-50%);
+        top: 15%;
+        width:auto;
+        height:50px;
       }
     </style>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap">
@@ -110,13 +121,19 @@ $Parsedown = new Parsedown();
       <title>
         <?php echo "Juli's docs - ".$info['title']; ?>
       </title>
+      <div class="logo">
+        <img src="/static/logo-white-transparent.svg">
+      </div>
       <h1>
         <?php echo $info['title']; ?>
       </h1>
       <?php echo $Parsedown->text($info['contents']); ?>
+      <br><br>
     </div>
   <div class="footer">
-    <div class="footer_text"
+    <div class="footer_text">
+
+      <a href="/">Back to home</a>
       <p>&copy; <?php echo date(
         "Y"
     ); ?> <a href="https://julimiro.eu">Juli</a>. All rights reserved.</p>

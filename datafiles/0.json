@@ -1,4 +1,4 @@
 {
   "title": "What is this?",
-  "contents": "This is my docs page where I publish docs about my code thingies. Have fun ig"
+  "contents": "This is my docs page where I publish docs about my code thingies. Have fun ig\nThe html is rendered with [parsedown](https://github.com/erusev/parsedown) and put into a page with my own code [here](https://github.com/Juliasmatius/docs/tree/main)."
 }
