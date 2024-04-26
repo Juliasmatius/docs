@@ -76,19 +76,10 @@ if (!isset($_GET['id'])) {
   $info["title"] = "Main page";
   $files = scandir("datafiles/");
 
-  // Initialize the variable to store contents
-
-  // Loop through each file
   foreach ($files as $file) {
-      // Check if the file is a JSON file
       if (pathinfo($file, PATHINFO_EXTENSION) === 'json') {
-          // Load the JSON data from the file
           $json = json_decode(file_get_contents("datafiles/" . $file), true);
-
-          // Extract the ID from the file name
           $id = pathinfo($file, PATHINFO_FILENAME);
-
-          // Append the link to the contents
           $info["contents"] .= '<a href="/?id=' . $id . '">' . $json["title"] . "</a><br>";
       }
     
